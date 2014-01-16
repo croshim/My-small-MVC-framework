@@ -2,7 +2,7 @@
 
 class Index_Controller extends Controller
 {
-    function indexAction() {        
-        $this->view->render('index', 'testdata');
+    function indexAction() {       
+        $this->view->render('index', 'Hello from framework, user! ');
     }
 }
